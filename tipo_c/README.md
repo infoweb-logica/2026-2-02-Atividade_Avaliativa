@@ -53,8 +53,8 @@ for i in range(N):
 
 | Entradas | Saídas |
 | -------- | ------ |
-| 5<br />5 -1 -1 -1 6 | |
-| 3<br />1 -1 3       | |
+| 5<br />5 -1 -1 -1 6 | 5 6 7 7 6 |
+| 3<br />1 -1 3       | 1 2 3     |
 
 ---
 2. Execute o programa abaixo e registre as saídas na tabela abaixo. Links do [código](https://olimpiada.ic.unicamp.br/static/extras/obi2025/solucoes/2025f3p2_hidrovias/hidrovias_dfs_py.py) e dos [gabaritos](https://olimpiada.ic.unicamp.br/static/extras/obi2025/gabaritos/2025f3p2_hidrovias.zip).
@@ -116,8 +116,8 @@ else:
 
 | Entradas | Saídas |
 | -------- | ------ |
-| 13 14 3<br />2 9 2<br />4 2 1<br />7 8 2<br />4 5 1<br />1 3 1<br />5 3 2<br />9 4 2<br />7 2 2<br />6 1 1<br />5 9 1<br />5 6 2<br />10 6 1<br />11 12 1<br />11 13 1 | |
-| 10 9 2<br />8 2 1<br />2 3 1<br />3 4 1<br />4 5 1<br />5 6 1<br />6 7 1<br />2 5 1<br />2 6 1<br />1 10 1 | |
+| 13 14 3<br />2 9 2<br />4 2 1<br />7 8 2<br />4 5 1<br />1 3 1<br />5 3 2<br />9 4 2<br />7 2 2<br />6 1 1<br />5 9 1<br />5 6 2<br />10 6 1<br />11 12 1<br />11 13 1 | S |
+| 10 9 2<br />8 2 1<br />2 3 1<br />3 4 1<br />4 5 1<br />5 6 1<br />6 7 1<br />2 5 1<br />2 6 1<br />1 10 1 | N |
 
 ---
 3. Execute o programa abaixo e registre as saídas na tabela abaixo. Links do [código](https://olimpiada.ic.unicamp.br/static/extras/obi2025/solucoes/2025f3p2_nasal/py_leo.py) e dos [gabaritos](https://olimpiada.ic.unicamp.br/static/extras/obi2025/gabaritos/2025f3p2_nasal.zip).
@@ -150,6 +150,6 @@ print(resp)
 
 | Entradas | Saídas |
 | -------- | ------ |
-| 5 1<br />3 5 2 1 7<br />9 2 3 1 5 | |
-| 5 2<br />1 2 3 4 5<br />2 2 2 2 2 | |
-| 1 0<br />10<br />10 | |
+| 5 1<br />3 5 2 1 7<br />9 2 3 1 5 | 13 |
+| 5 2<br />1 2 3 4 5<br />2 2 2 2 2 | 12 |
+| 1 0<br />10<br />10               | 10 |
