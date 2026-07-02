@@ -17,6 +17,9 @@ São 3 as avaliações:
 ---
 ## Avaliação 2.a - 2º bimestre
 
+**Observação**: foi individualizado os valores de entrada(s) das questões.
+Caso deseje testar, coloquei abaixo valores de entrada(s) e sua respectiva saída(s).
+
 1. Execute o programa abaixo e registre as saídas na tabela abaixo.
 
 ```python
@@ -26,7 +29,7 @@ print('desejo boa avaliação a todos')
 
 | Entradas | Saídas |
 | -------- | ------ |
-| ===      |        |
+|          | 2026 7 2<br/>desejo boa avaliação a todos |
 
 ---
 2. Execute o programa abaixo e registre as saídas na tabela abaixo.
@@ -40,7 +43,7 @@ print(f'hoje é {dia} de {mes} de {ano}.')
 
 | Entradas | Saídas |
 | -------- | ------ |
-| ===      |        |
+|          | hoje é 30 de 6 de 2026. |
 
 ---
 3. Execute o programa abaixo e registre as saídas na tabela abaixo.
@@ -52,7 +55,7 @@ for contador in range(3):
 
 | Entradas | Saídas |
 | -------- | ------ |
-| ===      |        |
+|          | contando 1 de 3.<br />contando 2 de 3.<br />contando 3 de 3. |
 
 ---
 4. Execute o programa abaixo e registre as saídas na tabela abaixo.
@@ -63,7 +66,8 @@ print(f'# {numero}')
 
 | Entradas | Saídas |
 | -------- | ------ |
-| ===      |        |
+| 3        | # 3    |
+| 4        | # 4    |
 
 ---
 5. Execute o programa abaixo e registre as saídas na tabela abaixo.
@@ -75,7 +79,8 @@ for contador in range(numero):
 
 | Entradas | Saídas |
 | -------- | ------ |
-| ===      |        |
+| 3        | contando 1 de 3.<br />contando 2 de 3.<br />contando 3 de 3. |
+| 4        | contando 1 de 4.<br />contando 2 de 4.<br />contando 3 de 4.<br />contando 4 de 4. |
 
 ---
 6. Execute o programa abaixo e registre as saídas na tabela abaixo.
@@ -89,7 +94,8 @@ print(f'soma: {soma}')
 
 | Entradas | Saídas |
 | -------- | ------ |
-| ===      |        |
+| 3        | soma: 3 |
+| 4        | soma: 6 |
 
 ---
 7. Execute o programa abaixo e registre as saídas na tabela abaixo.
@@ -107,7 +113,8 @@ else:
 
 | Entradas | Saídas |
 | -------- | ------ |
-| ===      |        |
+| 4<br />3 | 7 é ímpar |
+| 1<br />3 | 4 é par   |
 
 ---
 8. Execute o programa abaixo e registre as saídas na tabela abaixo.
@@ -124,7 +131,9 @@ else:
 
 | Entradas | Saídas |
 | -------- | ------ |
-| ===      |        |
+| 2        | 2 é positivo.  |
+| 0        | 0 é zero.      |
+| -2       | -2 é negativo. |
 
 ---
 9. Execute o programa abaixo e registre as saídas na tabela abaixo.
@@ -139,7 +148,8 @@ print(f'resultado: {soma}')
 
 | Entradas | Saídas |
 | -------- | ------ |
-| ===      |        |
+| 3<br />3<br />5<br />7 | resultado: 15 |
+| 5<br />5<br />3<br />1<br />3<br />5 | resultado: 17 |
 
 ---
 10. Execute o programa abaixo e registre as saídas na tabela abaixo.
@@ -160,6 +170,8 @@ print(f"2o resultado: {outro_resultado}")
 
 | Entradas | Saídas |
 | -------- | ------ |
-| ===      |        |
+| 7 5 3 1 0    | 1o resultado: 16<br />2o resultado: 1  |
+| 4 2 0 -2 4   | 1o resultado: 10<br />2o resultado: -2 |
+| -2 -1 -3 1 3 | 1o resultado: 4<br />2o resultado: -6  |
 
 ---
