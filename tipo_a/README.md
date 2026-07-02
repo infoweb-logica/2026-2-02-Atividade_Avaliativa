@@ -18,7 +18,7 @@ São 3 as avaliações:
 ## Avaliação 2.a - 2º bimestre
 
 **Observação**: foi individualizado os valores de entrada(s) das questões.
-Caso deseje testar, coloquei abaixo valores de entrada(s) e sua respectiva saída(s).
+Contudo caso deseje testar, aconeslho executar como _python debugger_, e use as entrada(s) abaixo e confira com a(s) respectiva(s) saída(s).
 
 1. Execute o programa abaixo e registre as saídas na tabela abaixo.
 
