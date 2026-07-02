@@ -16,6 +16,8 @@ São 3 as avaliações:
 
 ---
 ## Avaliação 2.b - 2º bimestre
+**Observação**: foi colocado os valores de entrada(s) e saídas das questões.
+Caso deseje testar, aconeslho executar como _python debugger_.
 
 1. Execute o programa abaixo e registre as saídas na tabela abaixo.
 ```python
@@ -29,8 +31,10 @@ else:
   print(f'{resultado} é ímpar.')
 ```
 
-Entradas
-Saídas
+| Entradas | Saídas |
+| -------- | ------ |
+| 3<br />4 |  7 é ímpar. |
+| 5<br />1 |  6 é par.   |
 
 ---
 2. Execute o programa abaixo e registre as saídas na tabela abaixo.
@@ -45,8 +49,11 @@ else:
   print(f'{numero} é negativo.')
 ```
 
-Entradas
-Saídas
+| Entradas | Saídas |
+| -------- | ------ |
+| 0        | 0 é zero.      |
+| 1        | 1 é positivo.  |
+| -1       | -1 é negativo. |
 
 ---
 3. Execute o programa abaixo e registre as saídas na tabela abaixo.
@@ -56,8 +63,10 @@ for contador in range(numero):
   print(f'contando {contador+1} de {numero}.')
 ```
 
-Entradas
-Saídas
+| Entradas | Saídas |
+| -------- | ------ |
+| 2        | contando 1 de 2.<br />contando 2 de 2. |
+| 3        | contando 1 de 3.<br />contando 2 de 3.<br />contando 3 de 3. |
 
 ---
 4. Execute o programa abaixo e registre as saídas na tabela abaixo.
@@ -69,8 +78,10 @@ for numero in range(repeticoes):
 print(f'resultado: {resultado}')
 ```
 
-Entradas
-Saídas
+| Entradas | Saídas |
+| -------- | ------ |
+| 3        | resultado: 3  |
+| 5        | resultado: 10 |
 
 ---
 5. Execute o programa abaixo e registre as saídas na tabela abaixo.
@@ -83,8 +94,10 @@ for indice in range(repeticoes):
 print(f'resultado: {resultado}')
 ```
 
-Entradas
-Saídas
+| Entradas | Saídas |
+| -------- | ------ |
+| 3<br />1 2 3 4 5 | resultado: 6 |
+| 4<br />3 2 1 2 3 | resultado: 8 |
 
 ---
 6. Execute o programa abaixo e registre as saídas na tabela abaixo.
@@ -101,8 +114,10 @@ for numero in numeros:
         print(f'{numero}! = {fatorial}')
 ```
 
-Entradas
-Saídas
+| Entradas | Saídas |
+| -------- | ------ |
+| 2 3 4    | 2! 2<br />3! = 6<br />4! = 24   |
+| 4 1 5    | 4! 24<br />1! = 1<br />5! = 120 |
 
 ---
 7. Execute o programa abaixo e registre as saídas na tabela abaixo.
@@ -124,8 +139,9 @@ for indice in range(repeticoes):
             print(f"{numero} NÃO é perfeito.")
 ```
 
-Entradas
-Saídas
+| Entradas | Saídas |
+| -------- | ------ |
+| 3<br />6 28 12 496 | 6 é perfeito!<br />28 é perfeito!<br />12 NÃO é perfeito. |
 
 ---
 8. Execute o programa abaixo e registre as saídas na tabela abaixo.
@@ -146,8 +162,9 @@ for numero in numeros:
 print(f"Números perfeitos: {numeros_perfeitos}")
 ```
 
-Entradas
-Saídas
+| Entradas | Saídas |
+| -------- | ------ |
+| 6 12 28 6 0 | 0 não é perfeito.<br />Números perfeitos: [6, 28] |
 
 ---
 9. Execute o programa abaixo e registre as saídas na tabela abaixo.
@@ -174,8 +191,10 @@ else:
     print("sem trecho")
 ```
 
-Entradas
-Saídas
+| Entradas | Saídas |
+| -------- | ------ |
+| 1 2 5 3 4 6 7 | trecho [1, 2, 5], tamanho 4 |
+| 2 1 1 0       | sem trecho |
 
 ---
 10. Execute o programa abaixo e registre as saídas na tabela abaixo.
@@ -194,6 +213,8 @@ print(f"lista mdc: {mdc}")
 print(f"lista mmc: {mmc}")
 ```
 
-Entradas
-Saídas
+| Entradas | Saídas |
+| -------- | ------ |
+| 12 18    | lista mdc: [6]<br />lista mmc: [36] |
+| 6 8 10   | lista mdc: [2, 2]<br />lista mmc: [24, 40] |
 ---
